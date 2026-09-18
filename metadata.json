@@ -1,0 +1,6 @@
+{
+  "name": "Gopilal Jewellers",
+  "description": "Royal Indian Jewellery House in Greater Noida offering hallmarked Gold, Diamond, Bridal, Polki, and Silver Jewellery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

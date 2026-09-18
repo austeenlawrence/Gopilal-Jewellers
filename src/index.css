@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --color-midnight: #09111e;
+  --color-midnight-light: #131d31;
+  --color-midnight-subtle: #1c2a44;
+  --color-champagne: #C5A059;
+  --color-champagne-light: #E4D3AC;
+  --color-champagne-dark: #9F7E3B;
+  --color-pearl: #FAFAF8;
+  --color-pearl-card: #FFFFFF;
+  --color-pearl-muted: #F3F1EC;
+  --color-pearl-border: #E5E1D8;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAFAF8;
+    color: #1a202c;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom Utilities */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Indian subtle luxury royal pattern */
+.royal-pattern {
+  background-color: #09111e;
+  background-image: radial-gradient(rgba(197, 160, 89, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.royal-pattern-light {
+  background-color: #FAFAF8;
+  background-image: radial-gradient(rgba(197, 160, 89, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
